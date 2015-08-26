@@ -1,0 +1,5 @@
+test
+--recursive
+--require should
+--require es6
+--bail

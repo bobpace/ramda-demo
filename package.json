@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "tdd": "mocha -w"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel": "^5.8.21",
     "mocha": "^2.2.5",
     "ramda": "^0.17.1",
     "should": "^7.0.4"
